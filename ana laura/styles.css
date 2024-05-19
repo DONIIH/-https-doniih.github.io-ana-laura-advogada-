@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Default_justice_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cad.form {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cad.form:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #0b0b0b;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    color: #0c0c0c;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#responseMessage {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.header {
+    background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    color: #f8f6f6;
+    font-size: 3em;
+    margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 18px;
+  font-style: normal;
+  font-family: 'Arial', sans-serif;
+            font-size: 3em;
+            position: relative;
+            animation: charmosa 1.5s ease-in-out infinite alternate;
+        }
+        @keyframes charmosa {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+h2{
+    color: #f8f6f6;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 18px;
+  font-style: normal;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0;
+    color: #f8f6f6;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 18px;
+  font-style: normal;
+}
+h3{
+    color: #0b0b0b;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
